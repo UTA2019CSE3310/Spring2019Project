@@ -1,6 +1,6 @@
 # SuperChat Demo: Capacities and Possible Requirements
 
-### Please see this [link] (https://youtu.be/8CLNm80ZJDc) for reference.
+### Please see this [link](https://youtu.be/8CLNm80ZJDc) for reference.
 
 ## Capacities
 
