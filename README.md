@@ -10,7 +10,7 @@ The dependencies for this application are:
 
 ## Build
 
-The current method of building on MacOS is as follows:
+The current method of building on MacOS is as follows (assuming you have downloaded the Asio library from sourceforge and your Downloads directory is in your current working directory):
 
 `#!/bin/bash
 
