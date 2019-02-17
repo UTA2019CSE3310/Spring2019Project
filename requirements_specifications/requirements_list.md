@@ -30,4 +30,4 @@
 | 028                | N                  | User Input         | C                 | The user can enter #h for a help menu showing all the command a user is allowed to use | N/A |
 | 029                | F                  | Server             | S                 | The server will automatically start with a default lobby chatroom that cannot be deleted | N/A | 
 | 030                | F                  | Server             | S                 | The server will support up to 50 users | N/A |
-| 031                | N                  | User input         | S                 | The user can block or "ban" another user's messages by using #b | N/A | 
+| 031                | N                  | User input         | C                 | The user can block or "ban" another user's messages by using #b | N/A | 
