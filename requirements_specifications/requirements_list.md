@@ -26,7 +26,14 @@
 | 024                | N                  | User input         | C                  | The user may encrypt their message by typing and entering #e. The system will query the user with a question "Caesar cipher: " to specify the encryption method. To remove the encryption feature, the user types and enters #e again.           | N/A             |
 | 025                | N                  | User input         | C                  | The user may decrypt any obfuscated messages by typing #d. The system will query the user with a question "Caesar cipher: " to specify the decryption method. To remove the decryption feature, the user types and enters #d again.            | N/A             |
 | 026                | F                  | Server             | S                 | The server will give the user an option to logout | N/A |         
-| 027                | N                  | User Input         | C                 | The user can enter #h for a help menu showing all the command a user is allowed to use | N/A |
+| 027                | N                  | User Input         | C                 | The user can enter #help for a help menu showing all the command a user is allowed to use | N/A |
 | 028                | F                  | Server             | S                 | The server will automatically start with a default lobby chatroom that cannot be deleted | N/A | 
 | 029                | F                  | Server             | S                 | The server will support up to 50 users | N/A |
 | 030                | N                  | User input         | C                 | The user can block or "ban" another user's messages by using #b | N/A | 
+| 031                | F                  | Server             | S                 | The server will show how to logout, get to the lobby, and change chatrooms at the top of the server | N/A | 
+| 032                | B                  | User Input         | S                 | When the user enters #chatrooms a new window will show the user all the available chatrooms | N/A | 
+| 033                | F                  | User input         | S                 | The chatrooms window will tell the user how many people are in each chatroom | N/A | 
+| 034                | F                  | Server             | C                 | The chatroom will show when anew user has joined the current chatroom | N/A | 
+| 035                | F                  | Server             | C                 | The chatroom will show which user created the chatroom | N/A |
+| 036                | N                  | Server             | C                 | The user can return to the main lobby chatroom by typing #lobby | N/A |
+| 036                | N                  | Server             | C                 | The chatrooms window will tell the user if theyve entered incorrect options when chosing a chatroom | N/A |
