@@ -36,4 +36,4 @@
 | 034                | F                  | Server             | C                 | The chatroom will show when anew user has joined the current chatroom | N/A | 
 | 035                | F                  | Server             | C                 | The chatroom will show which user created the chatroom | N/A |
 | 036                | N                  | Server             | C                 | The user can return to the main lobby chatroom by typing #lobby | N/A |
-| 036                | N                  | Server             | C                 | The chatrooms window will tell the user if theyve entered incorrect options when chosing a chatroom | N/A |
+| 037                | N                  | Server             | C                 | The chatrooms window will tell the user if they've entered incorrect options when chosing a chatroom | N/A |
