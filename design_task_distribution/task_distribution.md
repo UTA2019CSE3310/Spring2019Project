@@ -8,5 +8,5 @@ We will be following a layered information system architecture to best manage th
 | :--------------:   | :----------------: | -------------------------------------------------------------------------------------------------------------------------  |
 | Gerardo            | User Communication | All the UIDs that have to do with networking and ASIO                                                                      |
 | Luis               | User Interface     | All the UIDs that have to do with the user interface                                                                       |
-| Matthew            | Pick either        | Information retrieval and modification or transaction management                                                           |
+| Matthew            | Transation and Database       | Information retrieval and modification or transaction management                                                |
 | Kai                | Pick either        | Information retrieval and modification or transaction management                                                           |
