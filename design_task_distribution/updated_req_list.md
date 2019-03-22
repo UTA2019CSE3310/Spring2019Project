@@ -35,5 +35,5 @@
 | 033                | F                  | User input         | S                 | The chatrooms window will tell the user how many people are in each chatroom                                                 | N/A           | NCURSES_WRAPPER / init_ncurses |
 | 034                | F                  | Server             | C                 | The chatroom will show when anew user has joined the current chatroom                                                        | N/A           | NCURSES_WRAPPER / init_ncurses |
 | 035                | F                  | Server             | C                 | The chatroom will show which user created the chatroom                                                                       | N/A           | NCURSES_WRAPPER / init_ncurses |
-| 036                | N                  | Server             | C                 | The user can return to the main lobby chatroom by typing #lobby | N/A |
-| 037                | N                  | Server             | C                 | The chatrooms window will tell the user if they've entered incorrect options when chosing a chatroom | N/A |
+| 036                | N                  | Server             | C                 | The user can return to the main lobby chatroom by typing #lobby | N/A | nonfunctional |
+| 037                | N                  | Server             | C                 | The chatrooms window will tell the user if they've entered incorrect options when chosing a chatroom | N/A | nonfunctional |
