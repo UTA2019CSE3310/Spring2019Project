@@ -169,9 +169,6 @@ int main(int argc, char* argv[])
       msg.encode_header();
       c.write(msg);
       //update formatted_message with date and time
-      t_ = time(NULL);
-      strftime(time_buffer, 32, "%c", localtime(&t_));
-      sprintf(formatted_message, "%s %s: ", time_buffer, nick);
     }
 
     c.close();
