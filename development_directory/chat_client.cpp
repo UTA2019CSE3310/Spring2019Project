@@ -160,7 +160,6 @@ int main(int argc, char* argv[])
     std::cout << "Welcome to the main lobby! Remember: no profanity, no Smurf attacks, and have fun!\n\nType #h for a list of commands\n\n" << std::endl;
     while (std::cin.getline(line, chat_message::max_body_length + 1))
     {
-<<<<<<< HEAD
       if (line[0] == '#')
       {
         switch (line[1])
@@ -277,7 +276,6 @@ int main(int argc, char* argv[])
         strftime(time_buffer, 32, "%c", localtime(&t_));
         sprintf(formatted_message, "%s %s: ", time_buffer, nick);
       }
-=======
       t_ = time(NULL);
       strftime(time_buffer, 32, "%c", localtime(&t_));
       sprintf(formatted_message, "%s %s: ", time_buffer, nick);
@@ -288,7 +286,6 @@ int main(int argc, char* argv[])
       msg.encode_header();
       c.write(msg);
       //update formatted_message with date and time
->>>>>>> 3e900fe3cf196f4eb0a4a7f146678d6df2171113
     }
 
     c.close();
