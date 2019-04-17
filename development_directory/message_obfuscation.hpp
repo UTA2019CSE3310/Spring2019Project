@@ -8,14 +8,15 @@
                  at the University of Texas at Arlington.
 */
 #include <iostream>
+#include <cstring>
 using namespace std;
 #ifndef message_obfuscation_
 #define message_obfuscation_
 
-string encrypt(string message, int key)
+void encrypt(char* message, int key)
 {
   int i;
-  for (i = 0; i < message.length(); i++)
+  for (i = 0; i < strlen(message); i++)
  	{
  	 if (message[i] <  65 || (message[i] > 90 && message[i] < 97) || message[i] > 122) //handles non-alphabetic input
  	  message[i] = message[i];
@@ -30,13 +31,12 @@ string encrypt(string message, int key)
  	 else//handles alphabetic characters that don't overflow to non-alphabetic characters
  	  message[i] = message[i] + key;
  	}
-  return message;
 }
 
-string decrypt(string message, int key)
+void decrypt(char *message, int key)
 {
   int i;
-  for (i = 0; i < message.length(); i++)
+  for (i = 0; i < strlen(message); i++)
  	{
      if (message[i] <  65 || (message[i] > 90 && message[i] < 97) || message[i] > 122) //handles non-alphabetic input
       message[i] = message[i];
@@ -51,7 +51,6 @@ string decrypt(string message, int key)
  	 else//handles alphabetic characters that don't overflow to non-alphabetic characters
  	  message[i] = message[i] - key;
  	}
-  return message;
 }
 
 #endif
