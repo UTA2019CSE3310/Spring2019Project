@@ -7,7 +7,13 @@
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 //
+/*
+    Modifications made by Gerardo Rodriguez to meet the requirements of the
+    Fundamentals of Software Engineering course at the University of Texas at
+    Arlington.
 
+    *** Last modification: April 17 2019 ***
+*/
 #include <cstdlib>
 #include <string>
 
